@@ -37,7 +37,7 @@ WIN_COMBINATIONS.detect do |win_combination|
 end
 
 def full?(board)
- board.none? { |position| position == ""}
+ board.none? { |position| position == " "}
 end
 
 def draw?(board)
