@@ -49,7 +49,8 @@ def over?(board)
 end
 
 def winner(board)
-
+location = won?(board)
+index = location[0]
   
 
 end
