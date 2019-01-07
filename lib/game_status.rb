@@ -51,6 +51,5 @@ end
 def winner(board)
 location = won?(board)
 index = location[0]
-  
-
+board[index]  
 end
